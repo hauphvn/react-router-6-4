@@ -1,13 +1,11 @@
-import { useEffect, useState } from 'react';
-
 import Posts from '../components/Posts';
 import { getPosts } from '../util/api';
 import { useLoaderData } from "react-router-dom";
 
 function BlogPostsPage() {
-  const [error, setError] = useState();
-  const [posts, setPosts] = useState();
-  const [isLoading, setIsLoading] = useState(false);
+  // const [error, setError] = useState();
+  // const [posts, setPosts] = useState();
+  // const [isLoading, setIsLoading] = useState(false);
 const loaderData = useLoaderData();
   // useEffect(() => {
   //   async function loadPosts() {

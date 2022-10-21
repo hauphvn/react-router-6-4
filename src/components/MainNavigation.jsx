@@ -29,6 +29,13 @@ function MainNavigation() {
               Blog
             </NavLink>
           </li>
+          <li>
+            <NavLink to={'/blog/defer-slow-loading'}
+                     className={({isActive}) => isActive ? classes.active : undefined}
+                     end>
+              Blog Defer
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
